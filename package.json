@@ -1,0 +1,22 @@
+{
+  "name": "notchscript",
+  "version": "0.1.0",
+  "description": "A JavaScript-driven macOS fluid notch prototype.",
+  "main": "src/main/main.js",
+  "private": true,
+  "scripts": {
+    "dev": "electron .",
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "macos",
+    "notch",
+    "dynamic-island"
+  ],
+  "author": "kailous",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^36.3.2"
+  }
+}
