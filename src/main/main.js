@@ -6,14 +6,14 @@ let isExpanded = false;
 let isInteractive = false;
 
 const WINDOW = {
-  compact: { width: 260, height: 48 },
-  expanded: { width: 420, height: 128 },
-  y: 8
+  compact: { width: 218, height: 38 },
+  expanded: { width: 356, height: 92 },
+  y: -6
 };
 
 function getCenteredBounds(size) {
   const display = screen.getPrimaryDisplay();
-  const { x, width } = display.workArea;
+  const { x, width } = display.bounds;
 
   return {
     x: Math.round(x + (width - size.width) / 2),
